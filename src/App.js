@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ImageGallery from './components/ImageGallery/ImageGallery';
 import Lightbox from './components/Lightbox/Lightbox';
+import './App.css'; 
 
 const App = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -13,6 +14,13 @@ const App = () => {
     { id: 4, url: `${process.env.PUBLIC_URL}/images/image4.jpg`, alt: 'Bird 4' },
     { id: 5, url: `${process.env.PUBLIC_URL}/images/image5.jpg`, alt: 'Bird 5' },
     { id: 6, url: `${process.env.PUBLIC_URL}/images/image6.jpg`, alt: 'Bird 6' },
+    { id: 7, url: `${process.env.PUBLIC_URL}/images/image7.jpg`, alt: 'Bird 7' },
+    { id: 8, url: `${process.env.PUBLIC_URL}/images/image8.jpg`, alt: 'Bird 8' },
+    { id: 9, url: `${process.env.PUBLIC_URL}/images/image9.jpg`, alt: 'Bird 9' },
+    { id: 10, url: `${process.env.PUBLIC_URL}/images/image10.jpg`, alt: 'Bird 10' },
+    { id: 11, url: `${process.env.PUBLIC_URL}/images/image11.jpg`, alt: 'Bird 11' },
+    { id: 12, url: `${process.env.PUBLIC_URL}/images/image12.jpg`, alt: 'Bird 12' },
+
   ];
 
   const handleImageClick = (image, index) => {
