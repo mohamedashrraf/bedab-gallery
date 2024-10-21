@@ -1,3 +1,17 @@
+### Key Features Implemented:
+
+- **Responsive grid layout** with Flexbox.
+- **Lightbox modal** for image display, with navigation (next/prev).
+- **Lazy loading** for performance improvements.
+- **RTL support** for right-to-left languages.
+- **SASS** for organizing styles.
+- **CSS animations** for a smooth user experience.
+
+## Instructions to Run:
+
+1. Clone the repository:
+   git clone https://github.com/mohammedashrraf/bedab-gallery.git
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
